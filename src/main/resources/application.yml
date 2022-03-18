@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://15.116.20.163:3306/cmg?useUnicode=true&characterEncoding=UTF-8&useSSL=false&rewriteBatchedStatements=true&serverTimezone=GMT%2b8
+    username: osp
+    password: Osp_ctrm_2014
+    tomcat:
+      initial-size: 1
+
+logging:
+  level:
+    root: error
